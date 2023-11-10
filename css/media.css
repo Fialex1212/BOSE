@@ -1,0 +1,82 @@
+@media screen and (max-width: 744px){
+    .container{
+        max-width: 600px;
+    }
+
+    
+    /* Speaker start */
+
+    .speakers-title{
+        font-size: 2.5rem;
+    }
+
+    .speakers-cards{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .speakers-card{
+        max-width: 390px;
+    }
+
+    /* Speaker end */
+
+    
+    /* Gallery start */
+
+    
+
+    /* Gallery start */
+}
+
+@media screen and (max-width: 360px){
+    .container{
+        max-width: 280px;
+    }
+
+    /* Menu start */
+
+
+
+    /* Menu end */
+
+    /* Header start */
+
+    .header{
+        height: 60dvh;
+    }
+    
+    .header-logo{
+        width: 127px;
+        height: 16px;
+    }
+    
+    /* Header end*/
+
+    /* Speaker start */
+
+    .speakers-title{
+        font-size: 2rem;
+    }
+
+    .speakers-cards{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .speakers-card{
+        max-width: 390px;
+    }
+
+    /* Speaker end */
+
+    /* Gallery start */
+
+    .gallery-text{
+        font-size: 1rem;
+    }
+
+    /* Gallery start */
+}

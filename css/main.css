@@ -1,0 +1,163 @@
+@import "./reset.css";
+
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Menu start */
+
+.menu{
+    display: none;
+    width: 100%;
+    height: 100dvh;
+    background-color: #E8EFF9;
+}
+
+.menu-nav{
+    margin-bottom: 64px;
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+.menu-text{
+    font-size: 1.375rem;
+    text-transform: uppercase;
+    color: #292929;
+}
+
+.menu-text:hover{
+    text-decoration: underline;
+    color: #292929;
+}
+
+
+/* Menu end */
+
+/* Header start */
+
+.header{
+    width: 100%;
+    height: 100dvh;
+    background-image: url("../images/header/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav{
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    margin-bottom: 64px;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700; 
+}
+
+/* Header end*/
+
+/* Speaker start */
+
+.speakers{
+    padding: 120px 0;
+}
+
+.speakers-cards{
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+    line-height: 1.4;
+}
+
+.speakers-card{
+    cursor: pointer;
+    max-width: 320px;
+    transition: .4s;
+}
+
+.speakers-card:hover{
+    transform: scale(1.01);
+    transition: .4s;
+}
+
+.speakers-name, .speakers-price{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.speakers-name{
+    margin-bottom: 8px;
+}
+
+.speakers-description{
+    margin-bottom: 12px;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.speakers-img{
+    margin-bottom: 32px;
+}
+
+/* Speaker end */
+
+/* Gallery start */
+
+.gallery{
+    padding-bottom: 120px;
+}
+
+.gallery-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 64px;
+}
+
+.gallery-imgs{
+    margin-bottom: 16px;
+    display: flex;
+    column-gap: 24px;
+}
+
+.gallery-text{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.big{
+    max-width: 672px;
+}
+
+.small{
+    max-width: 324px;
+}
+
+/* Gallery end */
+
+/* Fotter start */
+
+.footer img{
+    width: 100%;
+}
+/* Footer end */
+
